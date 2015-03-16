@@ -1,0 +1,190 @@
+
+/*
+  ========== Tabla de Contenidos ==========
+  ========== #Globales ==========
+  ========== #Clases ==========
+  ========== #ID ==========
+  ========== #Modules ==========
+*/
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/*
+  ========== #Globales ==========
+*/
+
+article {
+  font-size: 16pt;
+  padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+body {
+  color: #303030;
+  font-size: 62,5%;
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 10px;
+}
+
+div {
+  width: 100%
+}
+
+h1 {
+  border: 2px solid #99CCFF;
+  margin-top: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+hr {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/*
+  ========== #Clases ==========
+*/
+
+.btn {
+  background: #99CCFF;
+  border: 2px solid #2E3D4C;
+  color: #303030;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background: transparent;
+  box-shadow: 5px 5px 10px #2E3D4C;
+  color: #303030;
+}
+
+.box-shadow-example {
+  display: inline-block;
+}
+
+
+.h-shadow-negative {
+  background-color: #99CCFF;
+  box-shadow: -25px 0px #2E3D4C;
+  float: right;
+  height:200px;
+  margin: 40px 40px;
+  width:30%;
+}
+
+.h-shadow-positive {
+  background-color: #99CCFF;
+  box-shadow: 25px 0px #2E3D4C;
+  float: left;
+  height:200px;
+  margin: 40px 40px;
+  width:30%;
+}
+.shadow-blur {
+  background-color: #99CCFF;
+  box-shadow: 20px 20px 25px #2E3D4C;
+  height:200px;
+  margin: 40px 40px;
+  width:50%;
+}
+
+.tex-shadow-animatable {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    text-align: center;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 20px 30px 100px #99CCFF;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 20px 30px 40px #2E3D4C;}
+}
+
+.first-positive-value {
+  font-size: 22pt;
+  float: left;
+  text-shadow: 4px 0px #99CCFF;
+  width: 50%;
+}
+
+.first-negative-value {
+  font-size: 22pt;
+  float: right;
+  text-shadow: -4px 0px #99CCFF;
+  width: 50%;
+}
+
+.second-positive-value {
+  font-size: 22pt;
+  float: left;
+  text-shadow: 0px 4px #99CCFF;
+  width: 50%;
+}
+
+.second-negative-value {
+  font-size: 22pt;
+  float: right;
+  text-shadow: 0px -4px #99CCFF;
+  width: 50%;
+}
+
+.text-shadow-radius {
+  font-size: 22pt;
+  text-align: center;
+  text-shadow: 4px 4px 4px #99CCFF;
+}
+
+.text-shadow-color {
+  font-size: 22pt;
+  text-align: center;
+  text-shadow: 4px 4px 4px #CCCC00;
+}
+
+#text-shadow-js {
+  font-size: 22pt;
+}
+
+.v-shadow-negative {
+  background-color: #99CCFF;
+  box-shadow: 0px -25px #2E3D4C;
+  float: right;
+  height:200px;
+  margin: 40px 40px;
+  width:37%;
+}
+
+.v-shadow-positive {
+  background-color: #99CCFF;
+  box-shadow: 0px 25px #2E3D4C;
+  float: left;
+  height:200px;
+  margin: 40px 40px;
+  width:37%;
+}
+
+/*
+  ========== #ID ==========
+*/
+
+#text-shadow-js {
+  float: left;
+  font-size: 22pt;
+}
+
+/*
+  ========== #Modules ==========
+*/

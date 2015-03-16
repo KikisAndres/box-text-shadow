@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Presentación</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div>
+		<h2>Trabajo Diseño y Desarrollo Web</h2>
+		<h2>Integrantes</h2>
+		<li>Andres Castro</li>
+		<li>Ginna Solano</li>
+		<br><br><br>
+		<a href="img/presentación.pptx">Presentación</a>
+	</div>
+	<header>
+		<h1>Box-Shadow</h1>
+		<article>
+			<p>La propiedad box-shadow concede una o mas sombras a la Caja dependiendo de donde se desee.</p>
+			<p>Cada valor va es una lista separada por comas de la posicion de las sombras que se requiere trabajar.</p>
+			<img src="img/box-shadow.png">
+		</article>
+		<p>box-shadow: none   |h-shadow    v-shadow    blur    spread    color    |inset   |initial   |inherit;</p>
+	</header>
+	<div class="box-shadow-example">
+		<h1>h-shadow</h1>
+		<article>
+			<p>La primera posicion indica el valor de la horizontal-sombra. Los valores negativos son permitidos.</p>
+			<p>Si el valor es positivo ( + ), la sombra de desplaza para la derecha y si es negativo ( - ), se desplaza para la izquierda.</p>
+		</article>
+		<div class="h-shadow-positive"></div>
+		<div class="h-shadow-negative"></div>
+	</div>
+	<hr>
+	<div class="box-shadow-example">
+		<h1>v-shadow</h1>
+		<article>
+			<p>La segunda posicion indica el valor de la vertical-sombra. Los valores negativos son permitidos.</p>
+			<p>Si el valor es positivo ( + ), la sombra de desplaza para la abajo y si es negativo ( - ), se desplaza para la arriba.</p>
+		</article>
+		<div class="v-shadow-positive"></div>
+		<div class="v-shadow-negative"></div>
+	</div>
+	<hr>
+	<div class="box-shadow-example">
+		<h1>blur</h1>
+		<article>
+			<p>La tercera posicion es opcional e indica el valor de difuminado de la sombra.</p>
+			<p>Entre mas grande sea el valor mas borrosa se va a ver las sombra. Con un valor 0 la  sombra se muestra como un color solido.</p>
+		</article>
+		<div class="shadow-blur"></div>
+	</div>
+	<hr>
+	<header>
+		<h1>Text-Shadow</h1>
+		<article>
+			<p>La propiedad text-shadow concede una o mas sombras a un Texto dependiendo de donde se desee.</p>
+			<p>Cada valor va es una lista separada por comas de la posicion de las sombras que se requiere trabajar.</p>
+			<img src="img/text-shadow.png">
+		</article>
+		<p>box-shadow: none   |h-shadow    v-shadow    blur    spread    color    |inset   |initial   |inherit;</p>
+	</header>
+	<div class="text-shadow-example">
+		<h1>Puede ser Animatable</h1>
+		<article>
+			<p>Algunas propiedades CSS son animatable, lo que significa que se pueden utilizar en animaciones y transiciones.</p>
+		</article>
+		<div class="tex-shadow-animatable">
+			<h2>Hola Amigos</h2>
+			<h3>Este es un ejemplo</h3>
+			<h3>de la sombra animada de un texto</h3>
+		</div>
+	</div>
+	<hr>
+	<div class="text-shadow-example">
+		<h1>Puede tener JavaScript</h1>
+		<article>
+			<p>Algunas propiedades CSS son animatable, lo que significa que se pueden utilizar en animaciones y transiciones.</p>
+		</article>
+		<div id="text-shadow-js">
+			<h2>Text-Shadow</h2>
+			<button class="btn" onclick="myFunction()" type="button">Pruebalo</button>
+		</div>
+	</div>
+	<hr>
+	<div class="text-shadow-info">
+		<h1>Posee 4 valores</h1>
+		<p>1. Sombra Horizontal, si es negativo ( - ) las sombra se pondra del lado izquierdo del texto.</p>
+		<p>2. Sombra Vertical, si es negativo ( - ) las sombra se pondra del lado superior del texto y si es positivo ( + ) las sombra se pondra del lado inferior del texto.</p>
+		<p>3. Opacidad de la Sombra, Entre mas grande sea el valor mas borrosa se va a ver las sombra. Con un valor 0 la  sombra se muestra como un color solido.</p>
+		<p>4. Color de la Sombra.</p>
+		<img src="img/text-shadow-1.png">
+	</div>
+	<div class="text-shadow-info">
+		<h1>Posee 4 valores</h1>
+		<p>1. Sombra Horizontal, si es negativo ( - ) las sombra se pondra del lado izquierdo del texto.</p>
+		<div class="first-positive-value">
+			<h2>Text-Shadow</h2>
+		</div>
+		<div class="first-negative-value">
+			<h2>Text-Shadow</h2>
+		</div>
+		<p>2. Sombra Vertical, si es negativo ( - ) las sombra se pondra del lado superior del texto y si es positivo ( + ) las sombra se pondra del lado inferior del texto.</p>
+		<div class="second-positive-value">
+			<h2>Text-Shadow</h2>
+		</div>
+		<div class="second-negative-value">
+			<h2>Text-Shadow</h2>
+		</div>
+		<p>3. Opacidad de la Sombra, Entre mas grande sea el valor mas borrosa se va a ver las sombra. Con un valor 0 la  sombra se muestra como un color solido.</p>
+		<div class="text-shadow-radius">
+			<h2>Text-Shadow</h2>
+		</div>
+		<p>4. Color de la Sombra.</p>
+		<div class="text-shadow-color">
+			<h2>Text-Shadow</h2>
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
